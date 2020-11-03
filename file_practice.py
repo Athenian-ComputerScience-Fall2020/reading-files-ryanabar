@@ -3,8 +3,10 @@
 
 
 # Read temps.txt and print it without the blank line at the end
-
-
+with open('temps.txt') as file_object:
+    contents = file_object.read()
+print(contents)
+print('cat')
 
 # Read temps.txt line by line and print with no whitespace
 
